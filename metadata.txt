@@ -1,0 +1,33 @@
+[general]
+name=MyQgisVM
+qgisMinimumVersion=3.28
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=GIS data processing toolkit for Vietnamese urban planning (VN-2000, QC, QPK, TT16/2025)
+about=MyQgisVM is a comprehensive GIS data processing toolkit for Vietnamese urban planning standards:
+    - Assign VN-2000 coordinate system (3-degree zone) by province and attach GeoMap basemap
+    - Auto scan and fix geometry errors: Invalid Geometry, Self-Intersection, Spikes, Duplicates, Topology Overlap
+    - Advanced Polygon processing: remove slivers, trim narrow branches, replace geometry, coordinate lookup
+    - Attribute management and QPK standardization: add 6 mandatory fields, bulk fill values, auto-calculate area/length
+    - Data merge and conversion: export to DXF, KML, GDB, Shapefile, GeoPackage
+    - Package spatial database following Circular 16/2025/TT-BXD standard (HoSoGIS, Feature Dataset, Feature Class)
+    Author: Nguyen Van Manh. Developer: INNO.
+version=1.2.0
+author=Nguyen Van Manh
+email=manh123133@gmail.com
+tags=vietnam,vn-2000,urban planning,qc,topology,gdb,kml,dxf,shapefile,gpkg,tt16,qpk,geodatabase,coordinate system
+homepage=https://github.com/manh123133-netizen/MyQgisVM
+tracker=https://github.com/manh123133-netizen/MyQgisVM/issues
+repository=https://github.com/manh123133-netizen/MyQgisVM
+icon=icon.png
+experimental=False
+deprecated=False
+changelog=
+    Version 1.2.0:
+    - Added professional icon set for all features (41 icons)
+    - Fixed DXF export using native QgsDxfExport API
+    - Multi-layer export support for KML, GDB, Shapefile, GeoPackage
+    - Added layer refresh button in export section
+    - Red-white UI theme based on INNO brand identity
+    Version 1.0.0:
+    - Initial release
